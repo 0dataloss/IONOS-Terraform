@@ -1,16 +1,18 @@
-# Magento Redundant Set-Up
+# Magento 1 LB, 1 Web server, 1 DB
+**Please Note: this software is provided without any warranty**
+
+![Image](Magento1webs1db1lb.jpg "icon")
 
 ## Infrastructure concept for hosting a Magento Website
 This Infrastructure as a Code (IaC) will create the following resources:
 * 1 Virtual Data Center
 * 1 Reserved IP address
 * 1 Network Load Balancer configured to serve 443 against the 2 Webservers
-* 2 Webservers
-* 2 DB servers
+* 1 Webservers
+* 1 DB servers
 * 1 Public Network from Internet to the Load Balancer
 * 1 Private Network between Load Balancer and Webservers
 * 1 Private Network between Webservers and DBs
-* 1 Private Network between DBs
 
 ## Basic software to be installed
 - Apache/Nginx + PHP for the Webservers
