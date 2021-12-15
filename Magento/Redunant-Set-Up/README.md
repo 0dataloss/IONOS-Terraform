@@ -1,6 +1,8 @@
 # Magento Redundant Set-Up
 **Please Note: this software is provided without any warranty**
 
+![Image](Magento-redundant-set-up.jpg "icon")
+
 ## Infrastructure concept for hosting a Magento Website
 This Infrastructure as a Code (IaC) will create the following resources:
 * 1 Virtual Data Center
