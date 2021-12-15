@@ -1,0 +1,9 @@
+.terraform/providers/registry.terraform.io/ionos-cloud/ionoscloud/5.2.15/windows_amd64/terraform-provider-ionoscloud_v5.2.15.exe
+.terraform/providers/registry.terraform.io/ionos-cloud/ionoscloud/5.2.15/windows_amd64/LICENSE
+.terraform/providers/registry.terraform.io/ionos-cloud/ionoscloud/5.2.15/windows_amd64/CHANGELOG.md
+.terraform.lock.hcl
+secret.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/providers/registry.terraform.io/ionos-cloud/ionoscloud/5.2.15/windows_amd64/README.md
+id_rsa.pub

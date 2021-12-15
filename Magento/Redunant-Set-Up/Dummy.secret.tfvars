@@ -1,0 +1,5 @@
+IONOS_user = ""
+IONOS_password = "" 
+console_password = ""
+ssh_pub_key = "./id_rsa.pub"
+origin_IP01 = ""
