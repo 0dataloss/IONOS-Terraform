@@ -2,6 +2,7 @@
 
 ## Infrastructure concept for hosting a Magento Website
 This Infrastructure as a Code (IaC) will create the following resources:
+* 1 Virtual Data Center
 * 1 Reserved IP address
 * 1 Network Load Balancer configured to serve 443 against the 2 Webservers
 * 2 Webservers
