@@ -1,2 +1,2 @@
-IONOS_user = "pankostanko@t-hoster.com"
-IONOS_password = "Non Guardarmi Il Mare"
+IONOS_user = ""
+IONOS_password = ""
