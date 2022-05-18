@@ -27,7 +27,7 @@ resource "ionoscloud_datacenter" "Customer_DC" {
 
 resource "ionoscloud_k8s_cluster" "Kubernetes_Control_Plane" {
   name        = "K8Scluster_Control_Plane"
-  k8s_version = "1.21.4"
+  k8s_version = "1.23.6"
   maintenance_window {
     day_of_the_week = "Sunday"
     time            = "02:30:00Z"
@@ -40,7 +40,7 @@ resource "ionoscloud_k8s_cluster" "Kubernetes_Control_Plane" {
 # K8S Pool setup
 resource "ionoscloud_k8s_node_pool" "Kubernetes_Node_Pool" {
   name        = "Node_Pool"
-  k8s_version = "1.21.4"
+  k8s_version = "1.23.6"
   maintenance_window {
     day_of_the_week = "Sunday"
     time            = "03:30:00Z"
