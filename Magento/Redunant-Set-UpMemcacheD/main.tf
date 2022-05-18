@@ -82,7 +82,7 @@ resource "ionoscloud_server" "memcached01" {
   ram               = 2048
   cpu_family        = "INTEL_SKYLAKE"
   availability_zone = "ZONE_1"
-  image_name        = "cd05e12b-526d-11ec-bfd0-46b2a98527cd"
+  image_name        = "45ec8032-e309-11eb-a927-824af8c35c96"
   ssh_key_path      = [ "${var.ssh_pub_key}" ]
   #  image_password    = var.console_password
   volume {
@@ -106,7 +106,7 @@ resource "ionoscloud_server" "memcached02" {
   ram               = 2048
   cpu_family        = "INTEL_SKYLAKE"
   availability_zone = "ZONE_2"
-  image_name        = "cd05e12b-526d-11ec-bfd0-46b2a98527cd"
+  image_name        = "45ec8032-e309-11eb-a927-824af8c35c96"
   ssh_key_path      = [ "${var.ssh_pub_key}" ]
   #  image_password    = var.console_password
   volume {
@@ -175,7 +175,7 @@ resource "ionoscloud_server" "webserver01" {
   ram               = 4096
   cpu_family        = "INTEL_SKYLAKE"
   availability_zone = "ZONE_1"
-  image_name        = "cd05e12b-526d-11ec-bfd0-46b2a98527cd"
+  image_name        = "45ec8032-e309-11eb-a927-824af8c35c96"
   ssh_key_path      = [ "${var.ssh_pub_key}" ]
   #  image_password    = var.console_password
   volume {
@@ -199,7 +199,7 @@ resource "ionoscloud_server" "webserver02" {
   ram               = 4096
   cpu_family        = "INTEL_SKYLAKE"
   availability_zone = "ZONE_2"
-  image_name        = "cd05e12b-526d-11ec-bfd0-46b2a98527cd"
+  image_name        = "45ec8032-e309-11eb-a927-824af8c35c96"
   ssh_key_path      = [ "${var.ssh_pub_key}" ]
   #  image_password    = var.console_password
   volume {
@@ -296,7 +296,7 @@ resource "ionoscloud_server" "database01" {
   ram               = 4096
   cpu_family        = "INTEL_SKYLAKE"
   availability_zone = "ZONE_1"
-  image_name        = "cd05e12b-526d-11ec-bfd0-46b2a98527cd"
+  image_name        = "45ec8032-e309-11eb-a927-824af8c35c96"
   ssh_key_path      = [ "${var.ssh_pub_key}" ]
   #  image_password    = var.console_password
   volume {
@@ -329,7 +329,7 @@ resource "ionoscloud_server" "database02" {
   ram               = 4096
   cpu_family        = "INTEL_SKYLAKE"
   availability_zone = "ZONE_2"
-  image_name        = "cd05e12b-526d-11ec-bfd0-46b2a98527cd"
+  image_name        = "45ec8032-e309-11eb-a927-824af8c35c96"
   ssh_key_path      = [ "${var.ssh_pub_key}" ]
   #  image_password    = var.console_password
   volume {
