@@ -16,7 +16,7 @@ provider "ionoscloud" {
 ///////////////////////////////////////////////////////////
 
 resource "ionoscloud_datacenter" "Customer_DC" {
-  name        = "Magento_Scalable_Hosting_Platform"
+  name        = "LAMP-1w-1d"
   location    = "gb/lhr"
   description = "VDC managed by Terraform - do not edit manually"
 }
