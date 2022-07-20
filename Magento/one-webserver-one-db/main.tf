@@ -2,7 +2,7 @@ terraform {
   required_providers {
     ionoscloud = {
       source = "ionos-cloud/ionoscloud"
-      version = "= 6.0.0-beta.14"
+      version = "= 6.3.0"
     }
   }
 }
@@ -63,7 +63,7 @@ resource "ionoscloud_server" "webserver01" {
   ram               = 4096
   cpu_family        = "INTEL_SKYLAKE"
   availability_zone = "ZONE_1"
-  image_name        = "45ec8032-e309-11eb-a927-824af8c35c96"
+  image_name        = "a8638113-0768-11ed-b441-96ff36bbb3ad"
   ssh_key_path      = [ "${var.ssh_pub_key}" ]
   #  image_password    = var.console_password
   volume {
